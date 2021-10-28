@@ -7,7 +7,7 @@ set -o nounset
 set -o pipefail
 
 readonly BINARY_NAME="drone"
-readonly DOWNLOAD_BASE_URL="https://github.com/drone/drone-cli/releases/download"
+readonly DOWNLOAD_BASE_URL="https://github.com/harness/drone-cli/releases/download"
 
 readonly TMP_DOWNLOAD_DIR="$(mktemp -d)"
 trap 'rm -rf "${TMP_DOWNLOAD_DIR?}"' EXIT

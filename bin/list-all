@@ -2,7 +2,7 @@
 
 # stolen from https://github.com/Banno/asdf-kustomize/blob/master/bin/list-all
 
-releases_path="https://api.github.com/repos/drone/drone-cli/releases"
+releases_path="https://api.github.com/repos/harness/drone-cli/releases"
 
 cmd="curl -s"
 if [ -n "$OAUTH_TOKEN" ]; then
